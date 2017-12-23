@@ -8,7 +8,6 @@ import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import android.view.WindowManager;
 
-
 public class SurfaceViewTest extends AppCompatActivity {
     private class FastRenderView extends SurfaceView implements Runnable {
         private volatile boolean running;
